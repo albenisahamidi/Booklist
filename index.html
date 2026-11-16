@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKLIST</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Booklist App <i class="fa-solid fa-book"></i></h1>
+        <form id="book-form" class="form">
+            <div class="input-group">
+                <input type="text" id="book-title" placeholder="Book Title..."  />
+                <small class="error-message">Please enter a book title</small>
+            </div>
+            <div class="input-group">
+                <input type="text" id="book-author" placeholder="Author..." />
+                <small class="error-message">Please enter the author name</small>
+            </div>
+            <button type="submit" id="add-book">Add Book</button>
+        </form>
+        <ul id="book-list"></ul>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
